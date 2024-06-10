@@ -1,0 +1,1369 @@
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  /* font-optical-sizing: auto; */
+}
+
+body {
+  margin: 18px;
+  background-color: #254a4a;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+/**************** Forside Mobilsite ****************/
+
+.profil_bil_forside {
+  width: 100%;
+}
+
+.h1_navn_forside {
+  text-align: center;
+}
+
+.text {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 200;
+  font-style: normal;
+  margin: 3%;
+  margin-top: 7%;
+  text-align: center;
+}
+
+.boks_1 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 493px;
+  height: 658px;
+  z-index: -1;
+  top: 25%;
+}
+
+.Lidt_om_h2 {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 7%;
+  color: white;
+}
+
+.om_mig_tekst_forside {
+  line-height: 2.2rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 200;
+  font-style: normal;
+}
+
+.boks_2 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 493px;
+  height: 207px;
+  z-index: -1;
+  top: 152%;
+}
+
+.knapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 12%;
+  margin-top: 30%;
+}
+
+.knap_1 a {
+  background-color: #ee8100;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+  margin-left: 20%;
+  display: block;
+  margin: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.knap_1 :hover {
+  background-color: #6f9696;
+  color: #ffffff;
+}
+.knap_2 a {
+  background-color: #ee8100;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  transition-duration: 0.3s;
+  margin-left: 20%;
+  display: block;
+  margin: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.knap_2 :hover {
+  background-color: #6f9696;
+  color: #ffffff;
+}
+
+/************** Portfolio mobilsite ****************/
+
+.Portfolio_overskrift {
+  text-align: center;
+  font-size: 4rem;
+}
+.portfolie_tekst {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 1.5rem;
+  margin: 4%;
+  margin-top: 15%;
+}
+
+.boks_portfolie {
+  position: absolute;
+  background-color: #6f9696;
+  width: 425px;
+  height: 267px;
+  z-index: -1;
+  top: 27%;
+  left: 8%;
+}
+.knapper_portfolie {
+  margin-top: 80%;
+  margin-left: 10%;
+}
+
+.knap_grundlæggende_web a {
+  background-color: #ee8100;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 20px;
+  padding: 110px 0px;
+  transition-duration: 0.3s;
+  margin-left: 20%;
+  display: block;
+  margin: 5px;
+  width: 375px;
+  text-align: center;
+}
+
+.knap_grundlæggende_web :hover {
+  background-color: #6f9696;
+  color: #ffffff;
+}
+
+.knap_grundlæggende_ux-ui a {
+  background-color: #ee8100;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 20px;
+  padding: 110px 0px;
+  transition-duration: 0.3s;
+  margin-left: 20%;
+  display: block;
+  margin: 5px;
+  width: 375px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.knap_grundlæggende_ux-ui :hover {
+  background-color: #6f9696;
+  color: #ffffff;
+}
+
+.knap_grundlæggende_animation a {
+  background-color: #ee8100;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 20px;
+  padding: 110px 0px;
+  transition-duration: 0.3s;
+  margin-left: 20%;
+  display: block;
+  margin: 5px;
+  width: 375px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.knap_grundlæggende_animation :hover {
+  background-color: #6f9696;
+  color: #ffffff;
+}
+.knap_grundlæggende_indhold a {
+  background-color: #ee8100;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 20px;
+  padding: 110px 0px;
+  transition-duration: 0.3s;
+  margin-left: 20%;
+  display: block;
+  margin: 5px;
+  width: 375px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.knap_grundlæggende_indhold :hover {
+  background-color: #6f9696;
+  color: #ffffff;
+}
+
+/************** Om mobilsite ****************/
+.profil_bil_om {
+  width: 100%;
+}
+.hvem_er_jeg_overskrift {
+  text-align: center;
+  font-size: 4rem;
+}
+.boks_om_1 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 492px;
+  height: 267px;
+  z-index: -1;
+  top: 27%;
+}
+.boks_om_2 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 492px;
+  height: 267px;
+  z-index: -1;
+  top: 145%;
+}
+
+.om_h2_navn {
+  font-family: "Italiana", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  margin-left: 20%;
+  margin-top: 10%;
+  color: white;
+}
+
+.om_mig_tekst_om {
+  line-height: 2.2rem;
+  margin: 3%;
+  margin-top: 13%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.h1_cv_om {
+  margin-top: 25%;
+  text-align: center;
+}
+/************** Grundlæggende Web mobilsite ****************/
+
+.grundlaeggende_web_overskrift {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.boks_grundlaeggende_web_1 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 492px;
+  height: 267px;
+  z-index: -1;
+  top: 24%;
+}
+
+.img_1_web {
+  width: 100%;
+}
+
+.knap_site_min_pc {
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.knap_site_min_pc a {
+  background-color: #ee8100;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 15px;
+  padding: 25px 20px;
+  transition-duration: 0.4s;
+  display: block;
+  width: 210px;
+  text-align: center;
+}
+
+.knap_site_min_pc :hover {
+  background-color: #6f9696;
+  color: #ffffff;
+}
+
+.tekst_web_1 {
+  line-height: 2.2rem;
+  margin: 3%;
+  margin-top: 13%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.img_2_web {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.boks_grundlaeggende_web_2 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 487px;
+  height: 415px;
+  z-index: -1;
+  top: 120%;
+}
+
+.img_3_web {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.boks_grundlaeggende_web_3 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 487px;
+  height: 365px;
+  z-index: -1;
+  top: 404%;
+}
+
+.tekst_web_2 {
+  line-height: 2.2rem;
+  margin: 3%;
+  margin-top: 13%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.img_kode1_web {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.img_kode2_web {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+/************** Grundlæggende UX/UI mobilsite ****************/
+
+.grundlaeggende_ux_ui_overskrift {
+  text-align: center;
+  font-size: 3rem;
+}
+.boks_grundlaeggende_ux_ui_1 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 492px;
+  height: 267px;
+  z-index: -1;
+  top: 24%;
+}
+
+.img_1_ux_ui {
+  width: 100%;
+
+  margin-top: 5%;
+}
+
+.knap_site_ux_ui {
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.knap_site_ux_ui a {
+  background-color: #ee8100;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 15px;
+  padding: 25px 20px;
+  transition-duration: 0.4s;
+  display: block;
+  width: 210px;
+  text-align: center;
+}
+
+.knap_site_ux_ui :hover {
+  background-color: #6f9696;
+  color: #ffffff;
+}
+
+.img_2_ux_ui {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+.tekst_ux_ui_1 {
+  line-height: 2.2rem;
+  margin: 3%;
+  margin-top: 15%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.boks_grundlaeggende_ux_ui_2 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 492px;
+  height: 267px;
+  z-index: -1;
+  top: 168%;
+}
+
+.img_3_ux_ui {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20%;
+}
+
+.tekst_ux_ui_2 {
+  line-height: 2.2rem;
+  margin: 3%;
+  margin-top: 15%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.img_4_ux_ui {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.tekst_ux_ui_3 {
+  line-height: 2.2rem;
+  margin: 3%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.boks_grundlaeggende_ux_ui_3 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 492px;
+  height: 247px;
+  z-index: -1;
+  top: 385%;
+}
+
+/************** Grundlæggende Animation mobilsite ****************/
+
+.grundlaeggende_animation_overskrift {
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+.boks_grundlaeggende_animation_1 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 492px;
+  height: 267px;
+  z-index: -1;
+  top: 23%;
+}
+
+.img_animation_1 {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.knap_til_spil {
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.knap_til_spil a {
+  background-color: #ee8100;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 15px;
+  padding: 25px 20px;
+  transition-duration: 0.4s;
+  display: block;
+  width: 210px;
+  text-align: center;
+}
+
+.knap_til_spil :hover {
+  background-color: #6f9696;
+  color: #ffffff;
+}
+
+.boks_grundlaeggende_animation_2 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 492px;
+  height: 420px;
+  z-index: -1;
+  top: 95%;
+}
+
+.animation_tekst_1 {
+  line-height: 2.2rem;
+  margin: 3%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.img_animation_2 {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.animation_tekst_2 {
+  line-height: 2.2rem;
+  margin: 3%;
+  margin-top: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.boks_grundlaeggende_animation_3 {
+  position: absolute;
+  background-color: #6f9696;
+  width: 492px;
+  height: 230px;
+  z-index: -1;
+  top: 300%;
+}
+
+.img_animation_3 {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.animation_tekst_3 {
+  line-height: 2.2rem;
+  margin: 3%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/************** Footer mobilsite ****************/
+
+footer {
+  margin-left: 3%;
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  /**************** Forside Desktop ****************/
+
+  .profil_bil_forside {
+    width: 100%;
+  }
+
+  .forside_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+  }
+
+  .text {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 200;
+    font-style: normal;
+    margin: 3%;
+    margin-top: 7%;
+  }
+
+  .boks_1 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1086px;
+    height: 618px;
+    z-index: -1;
+    top: 30%;
+  }
+
+  .om_mig_tekst_forside {
+    line-height: 2.2rem;
+    margin: 12%;
+    margin-top: 6%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+    /* text-align: center; */
+  }
+
+  .Lidt_om_h2 {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 7%;
+  }
+  .boks_2 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1187px;
+    height: 207px;
+    z-index: -1;
+    top: 159%;
+    left: 10%;
+  }
+
+  .knapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .knap_1 a {
+    background-color: #ee8100;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 20px;
+    transition-duration: 0.4s;
+    margin-left: 20%;
+    display: block;
+    margin: 5px;
+    width: 170px;
+    text-align: center;
+  }
+
+  .knap_1 :hover {
+    background-color: #6f9696;
+    color: #ffffff;
+  }
+  .knap_2 a {
+    background-color: #ee8100;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 20px;
+    transition-duration: 0.3s;
+    margin-left: 20%;
+    display: block;
+    margin: 5px;
+    width: 170px;
+    text-align: center;
+  }
+
+  .knap_2 :hover {
+    background-color: #6f9696;
+    color: #ffffff;
+  }
+  /************** Portfolio Desktop ****************/
+  .Portfolio_overskrift {
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 20%;
+  }
+  .portfolie_tekst {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 7%;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin: 4%;
+    margin-top: 10%;
+  }
+
+  .boks_portfolie {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1187px;
+    height: 267px;
+    z-index: -1;
+    top: 30%;
+    left: 10%;
+  }
+
+  .knapper_portfolie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30%;
+    margin-left: 15%;
+  }
+
+  .knap_grundlæggende_web a {
+    background-color: #ee8100;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 20px;
+    padding: 110px 0px;
+    transition-duration: 0.3s;
+    margin-left: 20%;
+    display: block;
+    margin: 5px;
+    width: 375px;
+    text-align: center;
+  }
+
+  .knap_grundlæggende_web :hover {
+    background-color: #6f9696;
+    color: #ffffff;
+  }
+
+  .knap_grundlæggende_ux-ui a {
+    background-color: #ee8100;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 20px;
+    padding: 110px 0px;
+    transition-duration: 0.3s;
+    margin-left: 20%;
+    display: block;
+    margin: 5px;
+    width: 375px;
+    text-align: center;
+  }
+
+  .knap_grundlæggende_ux-ui :hover {
+    background-color: #6f9696;
+    color: #ffffff;
+  }
+
+  .knap_grundlæggende_animation a {
+    background-color: #ee8100;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 20px;
+    padding: 110px 0px;
+    transition-duration: 0.3s;
+    margin-left: 20%;
+    display: block;
+    margin: 5px;
+    width: 375px;
+    text-align: center;
+    margin-top: 25%;
+  }
+
+  .knap_grundlæggende_animation :hover {
+    background-color: #6f9696;
+    color: #ffffff;
+  }
+  .knap_grundlæggende_indhold a {
+    background-color: #ee8100;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 20px;
+    padding: 110px 0px;
+    transition-duration: 0.3s;
+    margin-left: 20%;
+    display: block;
+    margin: 5px;
+    width: 375px;
+    text-align: center;
+    margin-top: 25%;
+  }
+
+  .knap_grundlæggende_indhold :hover {
+    background-color: #6f9696;
+    color: #ffffff;
+  }
+  /************** Om Desktop ****************/
+  .profil_bil_om {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .hvem_er_jeg_overskrift {
+    text-align: center;
+    font-size: 6rem;
+  }
+  .boks_om_1 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1187px;
+    height: 267px;
+    z-index: -1;
+    top: 30%;
+    left: 10%;
+  }
+  .boks_om_2 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1187px;
+    height: 267px;
+    z-index: -1;
+    top: 185%;
+    left: 10%;
+  }
+
+  .om_h2_navn {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-left: 34%;
+    color: white;
+  }
+
+  .om_mig_tekst_om {
+    line-height: 2.2rem;
+    margin: 12%;
+    margin-top: 9%;
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  .h1_cv_om {
+    font-size: 3rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .cv_overskrift_uddannelse {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  .cv_overskrift_erfaring {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  .cv_overskrift_kompetencer {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  .cv_overskrift_personlige_kompetencer {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  .cv_punkter {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+
+  /************** Grundlæggende Web Desktop ****************/
+  .grundlaeggende_web_overskrift {
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  .boks_grundlaeggende_web_1 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1187px;
+    height: 267px;
+    z-index: -1;
+    top: 30%;
+    left: 10%;
+  }
+
+  .img_1_web {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .knap_site_min_pc {
+    margin-left: 45%;
+    margin-top: 10%;
+  }
+  .knap_site_min_pc a {
+    background-color: #ee8100;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.7rem;
+    border: none;
+    border-radius: 15px;
+    padding: 25px 20px;
+    transition-duration: 0.4s;
+    display: block;
+    width: 210px;
+    text-align: center;
+  }
+
+  .knap_site_min_pc :hover {
+    background-color: #6f9696;
+    color: #ffffff;
+  }
+
+  .web_grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+  }
+
+  .img_2_web {
+    width: 25%;
+    margin-left: 39%;
+    margin-top: 10%;
+  }
+
+  .tekst_web_1 {
+    line-height: 2.2rem;
+    margin-top: 36%;
+    margin-left: 24%;
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+
+  .boks_grundlaeggende_web_2 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1187px;
+    height: 495px;
+    z-index: -1;
+    top: 210%;
+    left: 10%;
+  }
+
+  .img_3_web {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  .boks_grundlaeggende_web_3 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1087px;
+    height: 335px;
+    z-index: -1;
+    top: 410%;
+    left: 13%;
+  }
+
+  .tekst_web_2 {
+    line-height: 2.2rem;
+    margin: 15%;
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+
+  .grid_web_kode {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5%;
+  }
+
+  .img_kode1_web {
+    width: 100%;
+    margin-left: 24%;
+  }
+
+  .img_kode2_web {
+    width: 39%;
+    margin-left: 37%;
+    margin-top: 5%;
+  }
+
+  /************** Grundlæggende UX/UI Desktop ****************/
+
+  .grundlaeggende_ux_ui_overskrift {
+    text-align: center;
+    font-size: 6rem;
+  }
+  .boks_grundlaeggende_ux_ui_1 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1187px;
+    height: 267px;
+    z-index: -1;
+    top: 30%;
+    left: 10%;
+  }
+
+  .img_1_ux_ui {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+
+  .knap_site_ux_ui {
+    margin-left: 43%;
+    margin-top: 10%;
+  }
+  .knap_site_ux_ui a {
+    background-color: #ee8100;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.7rem;
+    border: none;
+    border-radius: 15px;
+    padding: 25px 20px;
+    transition-duration: 0.4s;
+    display: block;
+    width: 210px;
+    text-align: center;
+  }
+
+  .knap_site_ux_ui :hover {
+    background-color: #6f9696;
+    color: #ffffff;
+  }
+
+  .ux_ui_grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+  }
+
+  .img_2_ux_ui {
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 25%;
+  }
+  .tekst_ux_ui_1 {
+    line-height: 2.2rem;
+    margin: 5%;
+    margin-right: 17%;
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  .boks_grundlaeggende_ux_ui_2 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1287px;
+    height: 550px;
+    z-index: -1;
+    top: 160%;
+    margin-left: 5%;
+  }
+
+  .ux_ui_grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+  }
+
+  .order {
+    order: +1;
+  }
+
+  .img_3_ux_ui {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+  .tekst_ux_ui_2 {
+    line-height: 2.2rem;
+    margin: 5%;
+    margin-right: 17%;
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+
+  .img_4_ux_ui {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+
+  .boks_grundlaeggende_ux_ui_3 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1287px;
+    height: 300px;
+    z-index: -1;
+    top: 485%;
+    margin-left: 5%;
+  }
+  .tekst_ux_ui_3 {
+    line-height: 2.2rem;
+    margin: 8%;
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+
+  /************** Grundlæggende Animation Desktop ****************/
+
+  .grundlaeggende_animation_overskrift {
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  .boks_grundlaeggende_animation_1 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1187px;
+    height: 267px;
+    z-index: -1;
+    top: 30%;
+    left: 10%;
+  }
+
+  .img_animation_1 {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+  }
+
+  .knap_til_spil {
+    margin-left: 43%;
+    margin-top: 10%;
+  }
+  .knap_til_spil a {
+    background-color: #ee8100;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.7rem;
+    border: none;
+    border-radius: 15px;
+    padding: 25px 20px;
+    transition-duration: 0.4s;
+    display: block;
+    width: 210px;
+    text-align: center;
+  }
+
+  .knap_til_spil :hover {
+    background-color: #6f9696;
+    color: #ffffff;
+  }
+
+  .boks_grundlaeggende_animation_2 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1130px;
+    height: 250px;
+    z-index: -1;
+    top: 152%;
+    left: 12%;
+  }
+
+  .animation_tekst_1 {
+    line-height: 2.2rem;
+    margin-left: 8%;
+    margin: 12%;
+    margin-top: 12%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .img_animation_2 {
+    width: 90%;
+    margin-top: 0%;
+    margin-left: 5%;
+  }
+
+  .animation_tekst_2 {
+    line-height: 2.2rem;
+    margin-left: 8%;
+    margin: 12%;
+    margin-top: 12%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .boks_grundlaeggende_animation_3 {
+    position: absolute;
+    background-color: #6f9696;
+    width: 1130px;
+    height: 530px;
+    z-index: -1;
+    top: 350%;
+    left: 5%;
+  }
+  .grid_animation_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .order {
+    order: +1;
+  }
+  .img_animation_3 {
+    width: 80%;
+    margin-top: 35%;
+    margin-left: 10%;
+  }
+
+  .animation_tekst_3 {
+    line-height: 2.2rem;
+    margin: 10%;
+    margin-top: 12%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  /************** Footer Desktop ****************/
+
+  footer {
+    position: sticky;
+    top: 0;
+    padding: 1rem 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0%;
+  }
+}
